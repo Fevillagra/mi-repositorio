@@ -1,0 +1,430 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*---------------------------- MOVILE ----------------------------------*/
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+
+li {
+    list-style: none;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* GRID GENERAL */
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}
+
+.header {
+    grid-area: "header";
+}
+
+.main {
+    grid-area:"main";
+    display: grid;
+    grid-template-areas: 
+        "divimg"
+        "divleyenda";
+    grid-template-rows: 600px 600x;
+    
+}
+
+.footer {
+    display:grid;
+    grid-template-areas: 
+        "nosotros"
+        "sigue"
+        "info"
+        "enlaces"
+        "copy";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-area:"footer";
+    background-color: rgba(109, 248, 109, 0.972);
+    color: rgba(0, 0, 0, 0.835);
+    font-weight: lighter;
+    grid-row-gap: 10px;
+    padding: 10px;
+}
+
+
+
+/*---------- clases del header-------- */
+.menu {
+    display: flex;
+    font-size: 1.31rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.menu li a{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.menu li a:hover {
+    color:orangered;
+}
+
+
+
+.divlogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.museum {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    font-weight: lighter;
+}
+
+/*------clases del footer---------------*/
+
+.nosotros {
+    grid-area:"nosotros";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sigue {
+    grid-area:"sigue";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sigue a {
+    color:orangered;
+}
+
+.media {
+    width: 20px;
+    height: 20px;
+}
+
+
+.info {
+    grid-area:"info";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlaces {
+    grid-area:"enlaces";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.enlaces a {
+    color: orangered;
+}
+
+.copy {
+    grid-area:"copy";
+    text-align: center;
+}
+
+
+/*--------INDEX------------------ */
+
+.divimg {
+    grid-area: "divimg";
+    margin-bottom: 10px;
+}
+.divimg img {
+    width: 100%;
+    height: 100%;
+}
+
+.divleyenda {
+    grid-area: "divleyenda";
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/*--------Song machine ---------- */
+.discografia {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.albums {
+    display: grid;
+    grid-template-areas:
+    "gorillaz"
+    "demon"
+    "plastic"
+    "fall"
+    "humanz"
+    "now"
+    "song"
+    "this";
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,420);
+    text-align: center;
+    color: orangered;
+}
+
+/*-----------Miembros------------ */
+.miembros{
+    width: 300px;
+    height: 300px
+}
+
+.grid-c {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+    grid-template-rows: auto auto auto auto; 
+    grid-row-gap: 10px;
+    column-gap: 5px;
+}
+
+.d2 {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    align-items: center;
+}
+.d2 span {
+    color:orangered;
+}
+
+.murdoc { 
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    align-items: center;
+}
+.murdoc span {
+    color: orangered;
+}
+
+.noodle {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    align-items: center;
+}
+.noodle span {
+    color: orangered;
+}
+
+.russel {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    align-items: center;
+}
+.russel span {
+    color: orangered;
+}
+
+/*-----------------tour--------------- */
+.tour {
+    font-weight: bolder;
+    text-align: center;
+}
+.tour h3 {
+    margin-bottom: 10px;
+}
+.tour a {
+    color: orangered;
+}
+.tour a:hover {
+    color: rgb(253, 104, 49)
+}
+
+.tour div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*------------- Contacto ---------- */
+.email {
+    margin-left: 23px;
+}
+
+textarea {
+    width: 315px;
+    height: 200px;
+}
+
+.divform {
+    display: flex;
+    background-color: black;
+    color: orangered;
+    font-weight: lighter;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.boton {
+    width: 75px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+
+/*-----------------TABLET----------- */
+
+@media screen and (min-width: 711px) {
+    /* ----- header y footer -----*/
+    .museum {
+        font-size: larger;
+    }
+    .footer {
+    grid-template-areas: 
+    "nosotros sigue"
+    "info enlaces"
+    "copy copy";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 50px;
+    }
+    .sigue div ul li{
+        margin-top: 12px
+    }
+
+    .copy {
+        grid-column: 1/3
+    }
+
+    /* ------ SONG MACHINE--------- */
+    .albums {
+        grid-template-areas:
+        "gorillaz demon"
+        "plastic fall"
+        "humanz now"
+        "song this";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4,420);
+        grid-gap: 5px;
+    }
+
+    /*--------  Contacto -------- */
+    .divform form{
+        margin-left: 140px;
+    }
+
+}
+
+/*----------------------------------------DESKOP------------------------------------- */
+@media screen and (min-width: 900px) {
+    /*-----header------ */
+    .divmenu{ 
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        padding-top: 40px;
+        padding-bottom: 10px;
+
+    }
+    nav {
+        grid-column: 4/10;
+    }
+    .menu {
+        align-self: flex-end;
+        justify-content: space-around;
+        font-weight: lighter;
+    }
+
+    .divlogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 120px 50px;
+    }
+    .divdiv {
+        grid-column: 2/3;
+        grid-row: 1/2
+    }
+
+    .divlogo h1 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        text-align: center;
+    }
+
+    /*---------- footer -----------*/
+    .footer {
+        grid-template-areas: 
+        "nosotros sigue info enlaces "
+        "copy";
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        }
+    .sigue div ul li{
+        margin-top: 12px
+    }
+    
+    .copy {
+        grid-column: 2/4
+    }
+    
+    /*------------- Index ----------*/
+    .main {
+        display: block;
+    }
+
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows: repeat(4,auto);
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    .divimg {
+        grid-row:1/5;
+        grid-column:3/8;
+    }
+    .imgbanner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .divleyenda {
+        grid-column: 8/11;
+        grid-row: 1/5;
+        background-color: rgb(253, 119, 70);
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .infosub {
+        font-size: 1.5rem;
+        width: 65%;
+    }
+    .infosub h3 {
+        margin: 5px;
+        color:white;
+        padding-left: 10%;
+        line-height:0.9;
+    }
+    .infop{
+        margin: 10px;
+    }
+}
