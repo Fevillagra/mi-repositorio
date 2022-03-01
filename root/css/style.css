@@ -75,6 +75,9 @@ a {
 }
 .menu li a:hover {
     color:orangered;
+    width: 200px;
+    height: 32px;
+    font-size: 20px;
 }
 
 
@@ -269,6 +272,13 @@ a {
     margin-left: 23px;
 }
 
+input:focus {
+    width: 200px;
+    height: 32px;
+    font-size: 18px;
+    border:1px solid #000000;
+}
+
 textarea {
     width: 315px;
     height: 200px;
@@ -276,7 +286,7 @@ textarea {
 
 .divform {
     display: flex;
-    background-color: black;
+    background-image: linear-gradient(to bottom, white, black);
     color: orangered;
     font-weight: lighter;
     border-radius: 8px;
@@ -350,6 +360,14 @@ textarea {
         justify-content: space-around;
         font-weight: lighter;
     }
+
+    .menu li a:hover {
+        color:orangered;
+        width: 200px;
+        height: 32px;
+        font-size: 32px;
+    }
+    
 
     .divlogo {
         display: grid;
