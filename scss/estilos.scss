@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*======================MOBILE================================ */
+
+/* MENU */
+body {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px !important;
+}
+
+li {
+    list-style: none !important;
+    font-weight: bolder !important;
+    a {
+        text-decoration: none !important;
+        color:black !important;
+    }
+}
+
+
+.menu {
+    display: flex;
+    font-size: 1.31rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 25px;
+    .menu li{
+        padding-left: 10px;
+    }
+}
+.menu li a:hover {
+    color:orangered !important;
+    font-size: 30px;
+}
+
+
+/*MIEMBROS*/
+
+.naranja {
+    color: orangered !important;
+    font-weight: bolder;
+}
+
+.member {
+    padding-top: 10px !important;
+}
+
+.negro {
+    background-color: black;
+}
+
+/* CONTACTO */
+
+.nombre {
+    margin-top: 20px;
+}
+
+.email {
+    margin-left: 24px;
+}
+
+textarea {
+    width: 350px;
+    height: 100px;
+}
+
+.enviar {
+    margin-bottom: 20px;
+}
+
+/* =========================TABLET===============================*/
+
+@media screen and (min-width: 711px) {
+    .go {
+        display: flex;
+        justify-content: center;
+    }
+    .gorillaz {
+        width: 500px;
+        height: 151.5px;
+    }
+}
+
+/* ========================Deskop================================ */
+
+@media screen and (min-width: 900px) {
+    .nosotros {
+        margin-left: 20px;
+    }
+
+    .info {
+        margin-right: 20px;
+    }
+
+}
