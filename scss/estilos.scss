@@ -96,3 +96,48 @@ textarea {
     }
 
 }
+
+/* map footer*/
+
+$divcolor:(uno:red, dos:blue, tres:yellow);
+
+@each $clave, $valor in $divcolor {
+    .colu-#{$clave} {
+        background-color: $valor;
+    }
+}
+
+/* map-get museum*/
+
+$stylo: (
+    color: red,
+    fuente: 24px
+);
+
+.stilo {
+    color: map-get($stylo, color);
+    font-size: map-get($stylo, fuente)
+}
+
+/* extend miembros h1*/
+
+.azul {
+    color:blue;
+    font-weight: bolder
+}
+
+.azul--rojo {
+    @extend .azul;
+    color: red;
+}
+
+/* mixin song machine h1*/
+
+@mixin vs ($color, $font) {
+    color: $color;
+    font-weight: $font;   
+}
+
+.box {
+    @include vs (red, bolder );
+}
