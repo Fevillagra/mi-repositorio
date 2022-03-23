@@ -1,0 +1,32 @@
+ En el archivo index.html sumé el SEO con las siguientes características:
+-	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Asesoría económica para la toma de decisiones. Servicios contables y auditoría."
+-	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:  "gorillaz, 2D, murdoc, noodle, banda virtual".
+-	Encabezado: para el encabezado del h1 utilicé el texto “MUSEUM” Luego en h3 usé: “NACIMIENTO”.
+-	Título: utilice el siguiente título:”Gorillaz museum”.
+
+
+ En el archivo contacto.html sumé el SEO con las siguientes características:
+-	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Nuestro newsletter económico junto con nuestro podcast de negocios y contenido multimedia.".
+-	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:  "gorillaz, 2D, murdoc, noodle, banda virtual".
+-	Encabezado: para el encabezado del h1 utilicé el texto “Museum”
+-	Título: utilice el siguiente título:”Gorillaz - Contacto”.
+
+
+ En el archivo miembros.html sumé el SEO con las siguientes características:
+-	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Nuestro newsletter económico junto con nuestro podcast de negocios y contenido multimedia.".
+-	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:  "gorillaz, 2D, murdoc, noodle, banda virtual".
+-	Encabezado: para el encabezado del h1 utilicé el texto “Museum”. Para los h3 use los nombres de los integrantes de la banda: “2D” “Noodle” “Murdoc” “Russel”
+-	Título: utilice el siguiente título:”Gorillaz - MIEMBROS”.
+
+En el archivo songmachine.html sumé el SEO con las siguientes características:
+-	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Asesoría económica para la toma de decisiones. Servicios contables y auditoría."
+-	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:  "gorillaz, 2D, murdoc, noodle, banda virtual".
+-	Encabezado: para el encabezado del h1 utilicé el texto “MUSEUM” Luego en h3 usé: “Discografia” y en h4 los nombres de los albumes.
+-	Título: utilice el siguiente título:”Gorillaz – SONG MACHINE”.
+
+En el archivo tour.html sumé el SEO con las siguientes características:
+-	Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “Asesoría económica para la toma de decisiones. Servicios contables y auditoría."
+-	Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio:  "gorillaz, 2D, murdoc, noodle, banda virtual".
+-	Encabezado: para el encabezado del h1 utilicé el texto “MUSEUM” Luego en h3 usé: “TOUR 2022”.
+-	Título: utilice el siguiente título:”Gorillaz - TOUR”.
+
