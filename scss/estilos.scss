@@ -26,14 +26,23 @@ li {
     font-size: 1.31rem;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding-top: 25px;
-    .menu li{
-        padding-left: 10px;
+    padding-top: 39px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+     li{
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 .menu li a:hover {
     color:orangered !important;
     font-size: 30px;
+}
+/*INDEX*/
+.indtext {
+    background-color: rgb(246, 134, 93);
 }
 
 
@@ -71,6 +80,12 @@ textarea {
     margin-bottom: 20px;
 }
 
+/*Song machine*/
+
+.textc {
+    text-align: center;
+}
+
 /* =========================TABLET===============================*/
 
 @media screen and (min-width: 711px) {
@@ -86,7 +101,7 @@ textarea {
 
 /* ========================Deskop================================ */
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
     .nosotros {
         margin-left: 20px;
     }
@@ -94,7 +109,28 @@ textarea {
     .info {
         margin-right: 20px;
     }
-
+    //index
+    .img {
+        width: auto;
+        height: auto;
+    }
+    .indgrid {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows:  auto;
+    }
+    .go {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .indtext {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    //footer
+    .foot {
+        margin-top: 25px;
+    }
 }
 
 /* map footer*/
@@ -141,3 +177,4 @@ $stylo: (
 .box {
     @include vs (red, bolder );
 }
+

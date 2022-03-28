@@ -20,13 +20,22 @@ li {
   font-size: 1.31rem;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 25px; }
-  .menu .menu li {
-    padding-left: 10px; }
+  padding-top: 39px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 10px !important;
+  margin-right: 10px !important; }
+  .menu li {
+    margin-left: 10px;
+    margin-right: 10px; }
 
 .menu li a:hover {
   color: orangered !important;
   font-size: 30px; }
+
+/*INDEX*/
+.indtext {
+  background-color: #f6865d; }
 
 /*MIEMBROS*/
 .naranja {
@@ -53,6 +62,10 @@ textarea {
 .enviar {
   margin-bottom: 20px; }
 
+/*Song machine*/
+.textc {
+  text-align: center; }
+
 /* =========================TABLET===============================*/
 @media screen and (min-width: 711px) {
   .go {
@@ -63,11 +76,26 @@ textarea {
     height: 151.5px; } }
 
 /* ========================Deskop================================ */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1000px) {
   .nosotros {
     margin-left: 20px; }
   .info {
-    margin-right: 20px; } }
+    margin-right: 20px; }
+  .img {
+    width: auto;
+    height: auto; }
+  .indgrid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto; }
+  .go {
+    grid-column: 1/2;
+    grid-row: 1/2; }
+  .indtext {
+    grid-column: 2/3;
+    grid-row: 1/2; }
+  .foot {
+    margin-top: 25px; } }
 
 /* map footer*/
 .colu-uno {
