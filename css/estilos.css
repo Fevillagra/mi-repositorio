@@ -33,6 +33,9 @@ li {
   color: orangered !important;
   font-size: 30px; }
 
+.title {
+  font-size: 1.5rem; }
+
 /*INDEX*/
 .indtext {
   background-color: #f6865d; }
@@ -96,31 +99,3 @@ textarea {
     grid-row: 1/2; }
   .foot {
     margin-top: 25px; } }
-
-/* map footer*/
-.colu-uno {
-  background-color: red; }
-
-.colu-dos {
-  background-color: blue; }
-
-.colu-tres {
-  background-color: yellow; }
-
-/* map-get museum*/
-.stilo {
-  color: red;
-  font-size: 24px; }
-
-/* extend miembros h1*/
-.azul, .azul--rojo {
-  color: blue;
-  font-weight: bolder; }
-
-.azul--rojo {
-  color: red; }
-
-/* mixin song machine h1*/
-.box {
-  color: red;
-  font-weight: bolder; }
